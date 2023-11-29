@@ -17,7 +17,7 @@ public class DBInitializer implements CommandLineRunner {
     private final UserService userService;
 
     public DBInitializer(PasswordEncoder passwordEncoder, UserService userService) {
-        logger.info("DBInitializer running");
+//        logger.info("DBInitializer running");
         this.passwordEncoder = passwordEncoder;
         this.userService = userService;
     }
